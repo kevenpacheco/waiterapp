@@ -14,7 +14,15 @@ export function Orders() {
     });
 
     socket.on('orders@new', (order) => {
-      setOrder(prevState => prevState.concat(order));
+      setOrder((prevState) => {
+        const isThisOrderExist = prevState.find(({ _id }) => _id === order._id);
+        if (isThisOrderExist) {
+          return prevState;
+        }
+
+        const newOrders = prevState.concat(order);
+        return newOrders;
+      });
     });
   }, []);
 
