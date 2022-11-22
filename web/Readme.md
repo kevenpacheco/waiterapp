@@ -20,6 +20,8 @@ The web app features consist of:
 - Change order status between production queue tables;
 - Cancel/delete an order at any time.
 
+![](./public/demo.gif)
+
 ## 🚀 Step by step to use the application
 
 1 - Install the dependencies:
