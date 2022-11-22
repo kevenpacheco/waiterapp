@@ -6,6 +6,8 @@ WAITERAPP is an ordering application for a restaurant, developed during the even
 
 With it, orders are placed on the mobile application interface and sent to the web dashboard for the kitchen to prepare orders.
 
+![](./screenshot-all-aplication.png)
+
 ## Author
 
 - [LinkedIn](https://www.linkedin.com/in/kevenpacheco/)
