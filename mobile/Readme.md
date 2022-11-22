@@ -21,7 +21,7 @@ The features of the mobile application consist of:
 - Add and remove cart items
 - Place the order;
 
-![](./public/demo.gif)
+![](./assets/demo.gif)
 
 ## 🚀 Step by step to use the application
 
